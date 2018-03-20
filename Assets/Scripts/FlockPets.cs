@@ -5,8 +5,6 @@ using UnityEngine;
 public class FlockPets : MonoBehaviour {
 
     public GameObject petPrefab;
-    public Transform target;
-    public Transform myTransform;
     //public GameObject petPrefabTwo;
     //public GameObject petPrefabThree;
     public static int areaSize = 20;
@@ -33,13 +31,9 @@ public class FlockPets : MonoBehaviour {
         //Randomly moves position of goal
        // if (Random.Range(0,10000) < 50)
         {
-           // goalPos = new Vector3(Random.Range(-areaSize, areaSize),
-           //                       Random.Range(-areaSize, areaSize),
-           //                       Random.Range(-areaSize, areaSize));
-            transform.LookAt(target);
-            transform.Translate(Vector3.forward * 5 * Time.deltaTime);
-
-
+            goalPos = new Vector3(Random.Range(-areaSize, areaSize),
+                                  Random.Range(-areaSize, areaSize),
+                                  Random.Range(-areaSize, areaSize));
         }
     }
 }

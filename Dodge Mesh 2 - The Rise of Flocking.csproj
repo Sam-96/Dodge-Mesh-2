@@ -335,6 +335,7 @@
     <Compile Include="Assets\Scripts\CubeMeshData.cs" />
     <Compile Include="Assets\Scripts\FlockBehavior.cs" />
     <Compile Include="Assets\Scripts\FlockPets.cs" />
+    <Compile Include="Assets\Scripts\FollowTarget.cs" />
     <Compile Include="Assets\Scripts\GameTimer.cs" />
     <Compile Include="Assets\Scripts\ProCube.cs" />
     <Compile Include="Assets\Scripts\ProGrid.cs" />
