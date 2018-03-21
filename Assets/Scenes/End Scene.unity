@@ -397,8 +397,8 @@ MonoBehaviour:
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 1
   m_fontColorGradient:
-    topLeft: {r: 1, g: 0.5955882, b: 0.5955882, a: 1}
-    topRight: {r: 1, g: 0.2352941, b: 0.2352941, a: 1}
+    topLeft: {r: 0.15235709, g: 0.1397059, b: 1, a: 1}
+    topRight: {r: 0.48605108, g: 0.28676474, b: 1, a: 1}
     bottomLeft: {r: 1, g: 0.72794116, b: 0.7999567, a: 1}
     bottomRight: {r: 0.10689655, g: 0.08724645, b: 0.08724645, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
@@ -780,7 +780,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 914481534862f074ab477d4e59fcaf7e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 996bd426400f4de40b4a318378cf89b5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -865,7 +865,7 @@ Skybox:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2079956800}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: 724d5e33674446e499e9fdb0b29b3c3a, type: 2}
+  m_CustomSkybox: {fileID: 2100000, guid: 966766f4829d6ad419eaaf7cf0712f85, type: 2}
 --- !u!81 &2079956805
 AudioListener:
   m_ObjectHideFlags: 0
