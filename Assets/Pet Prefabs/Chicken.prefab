@@ -357,8 +357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6ec961014f40994d9aac8ed1b89f080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  rotateSpeed: 7
+  speed: 8
+  rotateSpeed: 8
 --- !u!137 &137873510646544178
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class FlockBehavior : MonoBehaviour {
 
-    public float speed = 15f;
-    public float rotateSpeed = 10f;
+    public float speed = 25f;
+    public float rotateSpeed = 15f;
     Vector3 avgHead;
     Vector3 avgPos;
     float neighborDist = 15f;
@@ -14,7 +14,7 @@ public class FlockBehavior : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        speed = Random.Range(25f, 100f);
+        speed = Random.Range(75f, 100f);
 	}
 	
 	// Update is called once per frame
@@ -50,7 +50,7 @@ public class FlockBehavior : MonoBehaviour {
 
         Vector3 vcent = Vector3.zero;
         Vector3 vavoid = Vector3.zero;
-        float gSpeed = 0.2f;
+        float gSpeed = 0.5f;
 
         Vector3 goalPos = FlockPets.goalPos;
 
