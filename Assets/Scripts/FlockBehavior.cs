@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class FlockBehavior : MonoBehaviour {
 
-    public float speed = 100f;
+    public float speed = 10f;
     public float rotateSpeed = 7f;
     Vector3 avgHead;
     Vector3 avgPos;
-    float neighborDist = 5f;
+    float neighborDist = 12f;
 
     bool turn = false;
 
 	// Use this for initialization
 	void Start () {
-        speed = Random.Range(50f, 100f);
+        speed = Random.Range(25f, 100f);
 	}
 	
 	// Update is called once per frame
@@ -26,7 +26,7 @@ public class FlockBehavior : MonoBehaviour {
         }
         else
             turn = false;
-        //If flock is turning, we calculate direction to center of tank and rotate fish
+        //If flock is turning, we calculate direction to center of tank and rotate pets
         if (turn)
         {
             Vector3 dir = Vector3.zero - transform.position;
