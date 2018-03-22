@@ -382,9 +382,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'OOOO you lasted a while! You won''t survive longer though
+  m_text: 'You''re not very good
 
-'
+    At this huh?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 808aa8f1ab804104aa7d0c337a6c1481, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: c26f698d4eee19e4a8b8f42cd299bab5, type: 2}
@@ -451,10 +451,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1010605269}
-    characterCount: 57
+    characterCount: 33
     spriteCount: 0
-    spaceCount: 10
-    wordCount: 10
+    spaceCount: 6
+    wordCount: 7
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -780,7 +780,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 996bd426400f4de40b4a318378cf89b5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 77c942c28b78b324c96c904eb8f32767, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

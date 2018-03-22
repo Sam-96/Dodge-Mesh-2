@@ -7,9 +7,9 @@ public class FlockPets : MonoBehaviour {
     public GameObject petPrefab;
     public GameObject petPrefabTwo;
     //public GameObject petPrefabThree;
-    public static int areaSize = 50;
+    public static int areaSize = 1550;
 
-    public static int numPets = 25;
+    public static int numPets = 500;
     public static GameObject[] allPets = new GameObject[numPets];
 
     public static Vector3 goalPos = Vector3.zero;
