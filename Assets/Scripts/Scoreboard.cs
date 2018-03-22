@@ -15,6 +15,15 @@ public class Scoreboard : MonoBehaviour {
         SetScoreText();
     }
 
+    public void Update()
+    {
+        //Resets the scene
+        if (Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene("MainMesh");
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         //if collision is a Mesh Object
@@ -29,14 +38,10 @@ public class Scoreboard : MonoBehaviour {
     void SetScoreText()
     {
         score.text = "Hits: " + _score.ToString();
-        if(_score >= 600000)
+        if(_score >= 1000)
         {
             SceneManager.LoadScene("End Scene");
         }
 
-        //Resets the scene
-        if (Input.GetKey(KeyCode.R)){
-            SceneManager.LoadScene("MainMesh");
-        }
     }
 }

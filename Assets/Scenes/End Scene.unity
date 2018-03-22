@@ -397,10 +397,10 @@ MonoBehaviour:
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 1
   m_fontColorGradient:
-    topLeft: {r: 0.15235709, g: 0.1397059, b: 1, a: 1}
-    topRight: {r: 0.48605108, g: 0.28676474, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 0.72794116, b: 0.7999567, a: 1}
-    bottomRight: {r: 0.10689655, g: 0.08724645, b: 0.08724645, a: 1}
+    topLeft: {r: 1, g: 0.11764705, b: 0.6237023, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 0.014705896, b: 0.6667387, a: 1}
+    bottomRight: {r: 0.8241379, g: 0.52114606, b: 0.52114606, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0

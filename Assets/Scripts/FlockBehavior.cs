@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class FlockBehavior : MonoBehaviour {
 
-    public float speed = 10f;
-    public float rotateSpeed = 7f;
+    public float speed = 15f;
+    public float rotateSpeed = 10f;
     Vector3 avgHead;
     Vector3 avgPos;
-    float neighborDist = 12f;
+    float neighborDist = 15f;
 
     bool turn = false;
 
