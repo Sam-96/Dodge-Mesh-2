@@ -33,5 +33,10 @@ public class Scoreboard : MonoBehaviour {
         {
             SceneManager.LoadScene("End Scene");
         }
+
+        //Resets the scene
+        if (Input.GetKey(KeyCode.R)){
+            SceneManager.LoadScene("MainMesh");
+        }
     }
 }
