@@ -38,7 +38,7 @@ public class Scoreboard : MonoBehaviour {
     void SetScoreText()
     {
         score.text = "Hits: " + _score.ToString();
-        if(_score >= 1000)
+        if(_score >= 300)
         {
             SceneManager.LoadScene("End Scene");
         }
