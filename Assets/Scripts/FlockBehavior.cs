@@ -67,7 +67,7 @@ public class FlockBehavior : MonoBehaviour {
                     vcent += go.transform.position;
                     groupSize++;
 
-                    //Avoids objects if they come too close
+                    //Avoids objects if they come too close 
                     if(dist < 1.0f)
                     {
                         vavoid = vavoid + (this.transform.position - go.transform.position);
