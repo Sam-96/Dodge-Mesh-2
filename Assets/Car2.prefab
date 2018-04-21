@@ -767,6 +767,7 @@ GameObject:
   - component: {fileID: 114443756524586880}
   - component: {fileID: 114211020826072016}
   - component: {fileID: 114880305970374408}
+  - component: {fileID: 114636867437870332}
   m_Layer: 0
   m_Name: Car2
   m_TagString: Meshy
@@ -4360,6 +4361,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carController: {fileID: 114113534302862730}
+--- !u!114 &114636867437870332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783324278903648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 227
+    i1: 249
+    i2: 105
+    i3: 194
+    i4: 44
+    i5: 164
+    i6: 67
+    i7: 36
+    i8: 200
+    i9: 148
+    i10: 192
+    i11: 11
+    i12: 91
+    i13: 21
+    i14: 50
+    i15: 107
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114638218724961756
 MonoBehaviour:
   m_ObjectHideFlags: 1
