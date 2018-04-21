@@ -337,6 +337,7 @@
     <Compile Include="Assets\Scripts\FlockPets.cs" />
     <Compile Include="Assets\Scripts\FollowTarget.cs" />
     <Compile Include="Assets\Scripts\GameTimer.cs" />
+    <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\ProCube.cs" />
     <Compile Include="Assets\Scripts\ProGrid.cs" />
     <Compile Include="Assets\Scripts\Scoreboard.cs" />

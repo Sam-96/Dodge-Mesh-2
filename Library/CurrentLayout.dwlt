@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 763}
+  m_MinSize: {x: 950, y: 742}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 763}
+  m_MinSize: {x: 950, y: 742}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 713}
-  m_MaxSize: {x: 14004, y: 18063}
+  m_MinSize: {x: 679, y: 692}
+  m_MaxSize: {x: 14000, y: 18042}
   vertical: 0
-  controlID: 13424
+  controlID: 6969
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1088
     height: 731
-  m_MinSize: {x: 404, y: 713}
-  m_MaxSize: {x: 10002, y: 18063}
+  m_MinSize: {x: 404, y: 692}
+  m_MaxSize: {x: 10000, y: 18042}
   vertical: 1
-  controlID: 13425
+  controlID: 6970
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 442}
   m_MaxSize: {x: 8004, y: 8042}
   vertical: 0
-  controlID: 13426
+  controlID: 6971
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 442}
   m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
-  controlID: 13405
+  controlID: 6972
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -415,9 +415,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8e0a0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 7ca5f5ff7ea5f5ffc4a5f5ff3e81f7ffaa97f7ff40a5f7ffd8b6f7ff6eb7f8ffbec0f8ff1ae7f8ffa8d1f9ff90e0f9ff84edf9ff6cf2f9ff5efcf9ff0a03faff3029faffde2efaffae43faff422dfbfffe58fbff06b3fbffecd8fcff9ee1fcff2eb1fdff6eb2fdffd6b6fdffe0b9fdff68bdfdffe6c5fdff40cafdffbecefdff30d2fdff9ed7fdff50fbffff52fbffff98fbffff000000009a4b0000ba4b0000cc4b0000de4b0000c84c0000da4c0000204d0000404d0000524d0000644d0000724e0000844e0000f458000006590000ee650000006600009c6c0000ae6c0000ec7000000071000012710000c6750000f8750000
+    m_SelectedIDs: 58eeffff
+    m_LastClickedID: -4520
+    m_ExpandedIDs: 943ef7ffe697f7ff9442fbffea4efeff98fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -468,14 +468,14 @@ MonoBehaviour:
     height: 204
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 3502.1748463469944
+  lastFramingTime: 4574.6563966796875
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 489.17062, y: 49.569546, z: -3.625}
+    m_Target: {x: 4.871391, y: 0.23149788, z: -120.79813}
     speed: 2
-    m_Value: {x: 489.17062, y: 49.569546, z: -3.625}
+    m_Value: {x: 4.871391, y: 0.23149788, z: -120.79813}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -503,9 +503,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 473.28357
+    m_Target: 6.1520457
     speed: 2
-    m_Value: 473.28357
+    m_Value: 6.1520457
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -556,20 +556,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Samuel (Yomi)\Desktop\Unity Projects\Dodge Mesh 2 -
     The Rise of Flocking MP\CS596P2Akinmulero_Samuel_MP
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 742b0000
-    m_LastClickedID: 11124
-    m_ExpandedIDs: 00000000e22a0000062b00004e2b0000322d0000c02d0000ea2d0000f62d0000582f0000c4300000e030000000ca9a3bffffff7f
+    m_SelectedIDs: e62a0000
+    m_LastClickedID: 10982
+    m_ExpandedIDs: 00000000e62a00000a2b0000522b0000382d0000c82d0000f22d0000fe2d0000602f0000ce300000ea30000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,7 +597,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e22a0000062b00004e2b0000322d0000c02d0000ea2d0000f62d0000582f0000c4300000e030000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000e62a00000a2b0000522b0000382d0000c82d0000f22d0000fe2d0000602f0000ce300000ea30000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
