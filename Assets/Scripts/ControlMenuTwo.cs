@@ -8,7 +8,7 @@ public class ControlMenuTwo : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Modes");
     }
 }
 
