@@ -323,6 +323,24 @@
   <ItemGroup>
     <Compile Include="Assets\_Gloomy_Animal\Script\CharacterSelect.cs" />
     <Compile Include="Assets\_Gloomy_Animal\Script\MouseOrbitImproved.cs" />
+    <Compile Include="Assets\Lobby\Scripts\DraggablePanel.cs" />
+    <Compile Include="Assets\Lobby\Scripts\EventSystemChecker.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyCountdownPanel.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyHook.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyInfoPanel.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyMainMenu.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyManager.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyPlayerList.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerEntry.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerList.cs" />
+    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\NetworkAsteroid.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\NetworkGameManager.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\NetworkLobbyHook.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\NetworkSpaceship.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\NetworkSpaceshipBullet.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\ControlMenu.cs" />
     <Compile Include="Assets\Scripts\ControlMenuFive.cs" />
     <Compile Include="Assets\Scripts\ControlMenuFour.cs" />
@@ -333,10 +351,12 @@
     <Compile Include="Assets\Scripts\FlockPets.cs" />
     <Compile Include="Assets\Scripts\FollowTarget.cs" />
     <Compile Include="Assets\Scripts\GameTimer.cs" />
+    <Compile Include="Assets\Scripts\NetworkLobbyHook.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\ProCube.cs" />
     <Compile Include="Assets\Scripts\ProGrid.cs" />
     <Compile Include="Assets\Scripts\Scoreboard.cs" />
+    <Compile Include="Assets\Scripts\SetupLocalPlayer.cs" />
     <Compile Include="Assets\Scripts\SphereColor.cs" />
     <Compile Include="Assets\Scripts\TimedRndmSpawn.cs" />
     <Compile Include="Assets\Scripts\VoxelDisplay.cs" />
@@ -375,6 +395,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Lobby\Documentation.txt" />
+    <None Include="Assets\Lobby\Instruction.txt" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
