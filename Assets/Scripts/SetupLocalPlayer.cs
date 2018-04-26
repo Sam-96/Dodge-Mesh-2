@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityStandardAssets.Vehicles.Car;
 
 public class SetupLocalPlayer : NetworkBehaviour {
 
@@ -34,12 +35,13 @@ public class SetupLocalPlayer : NetworkBehaviour {
     void Start () {
 		if(isLocalPlayer)
         {
-            GetComponent<drive>().enabled = true;
-            SmoothCameraFollow.target = this.transform;
+            GetComponent<CarController>().enabled = true;
+            CameraFollow.target = this.transform;
 
-            Renderer[] rends = GetComponentInChildren<Renderer>();
+          /*  Renderer[] rends = GetComponentInChildren<Renderer>();
             foreach (Renderer r in rends)
                 r.material.color = playerColor;
+          */
         }
 
         this.transform.position = new Vector3(Random.Range(-20, 20), 0, Random.Range(-20, 20));
@@ -47,6 +49,6 @@ public class SetupLocalPlayer : NetworkBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.GetComponentInChildren<TextMesh>().text = pname;
+       // this.GetComponentInChildren<TextMesh>().text = pname;
 	}
 }

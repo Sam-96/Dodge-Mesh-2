@@ -765,13 +765,14 @@ GameObject:
   - component: {fileID: 114113534302862730}
   - component: {fileID: 114471325355367030}
   - component: {fileID: 114443756524586880}
-  - component: {fileID: 114211020826072016}
   - component: {fileID: 114880305970374408}
   - component: {fileID: 114277846253517116}
   - component: {fileID: 114814240993335574}
+  - component: {fileID: 114345472450567586}
+  - component: {fileID: 114910859641236454}
   m_Layer: 0
   m_Name: Car2
-  m_TagString: Player
+  m_TagString: fam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4148,19 +4149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 2}
   skidParticles: {fileID: 0}
---- !u!114 &114211020826072016
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1783324278903648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d7530ec110798b4e895a4338920d84c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _score: 0
-  score: {fileID: 0}
 --- !u!114 &114277846253517116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4246,6 +4234,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 2}
   skidParticles: {fileID: 0}
+--- !u!114 &114345472450567586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783324278903648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44509b3d6240ed45ae32868657b8e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pname: player
+  playerColor: {r: 0.19712365, g: 0.007352948, b: 1, a: 1}
 --- !u!114 &114374470117052846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4487,12 +4488,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae8db7cb99ae56468d8432e20ce3b52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnObject: {fileID: 0}
-  spawnObjectTwo: {fileID: 0}
-  spawnObjectThree: {fileID: 0}
-  spawnObjectFour: {fileID: 0}
-  minTime: 20
-  maxTime: 21
+  spawnObject: {fileID: 1869604489867216, guid: 73ad716c53836934c833d097cf2509c2,
+    type: 2}
+  spawnObjectTwo: {fileID: 1517501934970104, guid: bcd51152a2341584383c88f905b896dc,
+    type: 2}
+  spawnObjectThree: {fileID: 1445901261657870, guid: d3b0e78f2da20ce4591374843c428b72,
+    type: 2}
+  spawnObjectFour: {fileID: 1517501934970104, guid: bcd51152a2341584383c88f905b896dc,
+    type: 2}
+  minTime: 2
+  maxTime: 4
+--- !u!114 &114910859641236454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783324278903648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd3da51c39409840964b78f260e542e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _score: 0
+  score: {fileID: 114803183033966412, guid: 1980e02b0ad861e4bbdb89e010fb60be, type: 2}
 --- !u!114 &114915815442453672
 MonoBehaviour:
   m_ObjectHideFlags: 1

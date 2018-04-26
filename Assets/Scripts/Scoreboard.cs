@@ -18,10 +18,10 @@ public class Scoreboard : MonoBehaviour {
     public void Update()
     {
         //Resets the scene
-       // if (Input.GetKey(KeyCode.R))
-       // {
-        //    SceneManager.LoadScene("MainMesh");
-       // }
+        if (Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene("MainMesh");
+        }
     }
 
     private void OnCollisionEnter(Collision collision)

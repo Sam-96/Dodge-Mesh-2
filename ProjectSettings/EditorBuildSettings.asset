@@ -32,6 +32,6 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/main.unity
     guid: 744993bad55826b45baaf71eff6b7dde

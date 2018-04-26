@@ -351,11 +351,12 @@
     <Compile Include="Assets\Scripts\FlockPets.cs" />
     <Compile Include="Assets\Scripts\FollowTarget.cs" />
     <Compile Include="Assets\Scripts\GameTimer.cs" />
-    <Compile Include="Assets\Scripts\NetworkLobbyHook.cs" />
+    <Compile Include="Assets\Scripts\NetLobbyHook.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\ProCube.cs" />
     <Compile Include="Assets\Scripts\ProGrid.cs" />
     <Compile Include="Assets\Scripts\Scoreboard.cs" />
+    <Compile Include="Assets\Scripts\ScoreboardOnline.cs" />
     <Compile Include="Assets\Scripts\SetupLocalPlayer.cs" />
     <Compile Include="Assets\Scripts\SphereColor.cs" />
     <Compile Include="Assets\Scripts\TimedRndmSpawn.cs" />
