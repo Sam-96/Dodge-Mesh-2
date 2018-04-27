@@ -7,6 +7,7 @@ Assets/Scenes/End Scene.unity
 Assets/Scenes/Modes.unity
 Assets/Scenes/NetworkScene.unity
 Assets/Scenes/LobbyScene.unity
+Assets/Scenes/InstructionsMultiplayer.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ControlMenuFour
 83d4b46811c47a71daa5b6aed30f3c32 Assembly-CSharp.dll:.FlockBehavior
