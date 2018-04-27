@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class ControlMenuFive : MonoBehaviour
 {
 
-    public void MultiPlayer()
+    public void MainScreen()
     {
-        SceneManager.LoadScene("NetworkScene");
+        SceneManager.LoadScene("Start Scene");
     }
 }
 

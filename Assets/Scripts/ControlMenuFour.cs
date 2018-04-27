@@ -13,7 +13,7 @@ public class ControlMenuFour : MonoBehaviour
 
     public void MultiPlayer()
     {
-        SceneManager.LoadScene("LobbyScene");
+        SceneManager.LoadScene("InstructionsMultiplayer");
     }
 }
 

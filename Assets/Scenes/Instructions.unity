@@ -1550,7 +1550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 188.9}
+  m_AnchoredPosition: {x: -138, y: 200.15}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107139084
@@ -1572,7 +1572,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'How To Play
+  m_text: 'How To Play - Single Player
 
 
 '
@@ -1642,10 +1642,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2107139084}
-    characterCount: 13
+    characterCount: 29
     spriteCount: 0
-    spaceCount: 4
-    wordCount: 3
+    spaceCount: 7
+    wordCount: 6
     linkCount: 0
     lineCount: 2
     pageCount: 1

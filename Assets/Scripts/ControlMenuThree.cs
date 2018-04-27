@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 public class ControlMenuThree : MonoBehaviour
 {
 
-    public void GoBack()
+    public void StartGame()
     {
-        SceneManager.LoadScene("Modes");
+        SceneManager.LoadScene("LobbyScene");
         //NetworkManager.singleton.ServerChangeScene("Modes");
     }
 

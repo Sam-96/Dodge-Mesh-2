@@ -29,6 +29,7 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 2b4ee1fc14f90ef2465230265b6864ae Assembly-CSharp.dll:.NetworkSpaceshipBullet
 9463b7b2b84803d64715e13b0fb69fd1 Assembly-CSharp.dll:.VoxelDisplay
 c35752b81d25e001fee445da226f3c4e Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.Suspension
+09eaee5059152397af6bb93e5f97ff4a Assembly-CSharp.dll:.ScoreboardOnline
 0df26d7642d4095bdac77a78b25e44a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.BrakeLight
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Prototype.NetworkLobby.EventSystemChecker
 5068bc7e323c614e8e3c4e61f062de7c Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.SkidTrail
@@ -299,6 +300,7 @@ a8ed45ab553b07236625df6cc6ac449c TextMeshPro-2017.3-1.0.56-Editor.dll:TMPro.Edit
 0f3d832b4eab173f4ea15e0db137bc91 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.CarController
 602eb97b20feedd39c051dee7c2e88de Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.CarAIControl
 8a50d3d11bf0cc541f5c35347dd25633 Assembly-CSharp.dll:TMPro.Examples.ShaderPropAnimator
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NetLobbyHook
 9463b7b2b84803d64715e13b0fb69fd1 Assembly-CSharp.dll:.ProCube
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ControlMenu
 787e2b9ae31dffd9c6c22a49250dbd1c Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.CarSelfRighting
@@ -438,5 +440,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NetLobbyHook
-09eaee5059152397af6bb93e5f97ff4a Assembly-CSharp.dll:.ScoreboardOnline
